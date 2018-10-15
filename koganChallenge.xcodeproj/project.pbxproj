@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		557973A0206D0C3F00843573 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5579739F206D0C3F00843573 /* AppDelegate.swift */; };
+		557973A2206D0C3F00843573 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 557973A1206D0C3F00843573 /* ViewController.swift */; };
+		557973A5206D0C3F00843573 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 557973A3206D0C3F00843573 /* Main.storyboard */; };
+		557973A7206D0C3F00843573 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 557973A6206D0C3F00843573 /* Assets.xcassets */; };
+		557973AA206D0C3F00843573 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 557973A8206D0C3F00843573 /* LaunchScreen.storyboard */; };
+		557973B5206D0C3F00843573 /* koganChallengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 557973B4206D0C3F00843573 /* koganChallengeTests.swift */; };
+		557973C0206D0C3F00843573 /* koganChallengeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 557973BF206D0C3F00843573 /* koganChallengeUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		557973B1206D0C3F00843573 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 55797394206D0C3F00843573 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5579739B206D0C3F00843573;
+			remoteInfo = koganChallenge;
+		};
+		557973BC206D0C3F00843573 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 55797394206D0C3F00843573 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5579739B206D0C3F00843573;
+			remoteInfo = koganChallenge;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5579739C206D0C3F00843573 /* koganChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = koganChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5579739F206D0C3F00843573 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		557973A1206D0C3F00843573 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		557973A4206D0C3F00843573 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		557973A6206D0C3F00843573 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		557973A9206D0C3F00843573 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		557973AB206D0C3F00843573 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		557973B0206D0C3F00843573 /* koganChallengeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = koganChallengeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		557973B4206D0C3F00843573 /* koganChallengeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = koganChallengeTests.swift; sourceTree = "<group>"; };
+		557973B6206D0C3F00843573 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		557973BB206D0C3F00843573 /* koganChallengeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = koganChallengeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		557973BF206D0C3F00843573 /* koganChallengeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = koganChallengeUITests.swift; sourceTree = "<group>"; };
+		557973C1206D0C3F00843573 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		55797399206D0C3F00843573 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		557973AD206D0C3F00843573 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		557973B8206D0C3F00843573 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		55797393206D0C3F00843573 = {
+			isa = PBXGroup;
+			children = (
+				5579739E206D0C3F00843573 /* koganChallenge */,
+				557973B3206D0C3F00843573 /* koganChallengeTests */,
+				557973BE206D0C3F00843573 /* koganChallengeUITests */,
+				5579739D206D0C3F00843573 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5579739D206D0C3F00843573 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5579739C206D0C3F00843573 /* koganChallenge.app */,
+				557973B0206D0C3F00843573 /* koganChallengeTests.xctest */,
+				557973BB206D0C3F00843573 /* koganChallengeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5579739E206D0C3F00843573 /* koganChallenge */ = {
+			isa = PBXGroup;
+			children = (
+				5579739F206D0C3F00843573 /* AppDelegate.swift */,
+				557973A1206D0C3F00843573 /* ViewController.swift */,
+				557973A3206D0C3F00843573 /* Main.storyboard */,
+				557973A6206D0C3F00843573 /* Assets.xcassets */,
+				557973A8206D0C3F00843573 /* LaunchScreen.storyboard */,
+				557973AB206D0C3F00843573 /* Info.plist */,
+			);
+			path = koganChallenge;
+			sourceTree = "<group>";
+		};
+		557973B3206D0C3F00843573 /* koganChallengeTests */ = {
+			isa = PBXGroup;
+			children = (
+				557973B4206D0C3F00843573 /* koganChallengeTests.swift */,
+				557973B6206D0C3F00843573 /* Info.plist */,
+			);
+			path = koganChallengeTests;
+			sourceTree = "<group>";
+		};
+		557973BE206D0C3F00843573 /* koganChallengeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				557973BF206D0C3F00843573 /* koganChallengeUITests.swift */,
+				557973C1206D0C3F00843573 /* Info.plist */,
+			);
+			path = koganChallengeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5579739B206D0C3F00843573 /* koganChallenge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 557973C4206D0C3F00843573 /* Build configuration list for PBXNativeTarget "koganChallenge" */;
+			buildPhases = (
+				55797398206D0C3F00843573 /* Sources */,
+				55797399206D0C3F00843573 /* Frameworks */,
+				5579739A206D0C3F00843573 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = koganChallenge;
+			productName = koganChallenge;
+			productReference = 5579739C206D0C3F00843573 /* koganChallenge.app */;
+			productType = "com.apple.product-type.application";
+		};
+		557973AF206D0C3F00843573 /* koganChallengeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 557973C7206D0C3F00843573 /* Build configuration list for PBXNativeTarget "koganChallengeTests" */;
+			buildPhases = (
+				557973AC206D0C3F00843573 /* Sources */,
+				557973AD206D0C3F00843573 /* Frameworks */,
+				557973AE206D0C3F00843573 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				557973B2206D0C3F00843573 /* PBXTargetDependency */,
+			);
+			name = koganChallengeTests;
+			productName = koganChallengeTests;
+			productReference = 557973B0206D0C3F00843573 /* koganChallengeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		557973BA206D0C3F00843573 /* koganChallengeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 557973CA206D0C3F00843573 /* Build configuration list for PBXNativeTarget "koganChallengeUITests" */;
+			buildPhases = (
+				557973B7206D0C3F00843573 /* Sources */,
+				557973B8206D0C3F00843573 /* Frameworks */,
+				557973B9206D0C3F00843573 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				557973BD206D0C3F00843573 /* PBXTargetDependency */,
+			);
+			name = koganChallengeUITests;
+			productName = koganChallengeUITests;
+			productReference = 557973BB206D0C3F00843573 /* koganChallengeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		55797394206D0C3F00843573 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "yogesh anand";
+				TargetAttributes = {
+					5579739B206D0C3F00843573 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					557973AF206D0C3F00843573 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5579739B206D0C3F00843573;
+					};
+					557973BA206D0C3F00843573 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5579739B206D0C3F00843573;
+					};
+				};
+			};
+			buildConfigurationList = 55797397206D0C3F00843573 /* Build configuration list for PBXProject "koganChallenge" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 55797393206D0C3F00843573;
+			productRefGroup = 5579739D206D0C3F00843573 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5579739B206D0C3F00843573 /* koganChallenge */,
+				557973AF206D0C3F00843573 /* koganChallengeTests */,
+				557973BA206D0C3F00843573 /* koganChallengeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5579739A206D0C3F00843573 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				557973AA206D0C3F00843573 /* LaunchScreen.storyboard in Resources */,
+				557973A7206D0C3F00843573 /* Assets.xcassets in Resources */,
+				557973A5206D0C3F00843573 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		557973AE206D0C3F00843573 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		557973B9206D0C3F00843573 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		55797398206D0C3F00843573 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				557973A2206D0C3F00843573 /* ViewController.swift in Sources */,
+				557973A0206D0C3F00843573 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		557973AC206D0C3F00843573 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				557973B5206D0C3F00843573 /* koganChallengeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		557973B7206D0C3F00843573 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				557973C0206D0C3F00843573 /* koganChallengeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		557973B2206D0C3F00843573 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5579739B206D0C3F00843573 /* koganChallenge */;
+			targetProxy = 557973B1206D0C3F00843573 /* PBXContainerItemProxy */;
+		};
+		557973BD206D0C3F00843573 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5579739B206D0C3F00843573 /* koganChallenge */;
+			targetProxy = 557973BC206D0C3F00843573 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		557973A3206D0C3F00843573 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				557973A4206D0C3F00843573 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		557973A8206D0C3F00843573 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				557973A9206D0C3F00843573 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		557973C2206D0C3F00843573 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		557973C3206D0C3F00843573 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		557973C5206D0C3F00843573 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = koganChallenge/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.week2.koganChallenge;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		557973C6206D0C3F00843573 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = koganChallenge/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.week2.koganChallenge;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		557973C8206D0C3F00843573 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = koganChallengeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.week2.koganChallengeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/koganChallenge.app/koganChallenge";
+			};
+			name = Debug;
+		};
+		557973C9206D0C3F00843573 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = koganChallengeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.week2.koganChallengeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/koganChallenge.app/koganChallenge";
+			};
+			name = Release;
+		};
+		557973CB206D0C3F00843573 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = koganChallengeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.week2.koganChallengeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = koganChallenge;
+			};
+			name = Debug;
+		};
+		557973CC206D0C3F00843573 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = koganChallengeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.week2.koganChallengeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = koganChallenge;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		55797397206D0C3F00843573 /* Build configuration list for PBXProject "koganChallenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				557973C2206D0C3F00843573 /* Debug */,
+				557973C3206D0C3F00843573 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		557973C4206D0C3F00843573 /* Build configuration list for PBXNativeTarget "koganChallenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				557973C5206D0C3F00843573 /* Debug */,
+				557973C6206D0C3F00843573 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		557973C7206D0C3F00843573 /* Build configuration list for PBXNativeTarget "koganChallengeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				557973C8206D0C3F00843573 /* Debug */,
+				557973C9206D0C3F00843573 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		557973CA206D0C3F00843573 /* Build configuration list for PBXNativeTarget "koganChallengeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				557973CB206D0C3F00843573 /* Debug */,
+				557973CC206D0C3F00843573 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 55797394206D0C3F00843573 /* Project object */;
+}
